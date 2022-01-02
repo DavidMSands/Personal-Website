@@ -7,8 +7,15 @@ h1 {
 .small_text {
     font-family: 'EB Garamond', serif;
     font-size: 12px;
+    width: 715px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .large_text {
     font-family: 'EB Garamond', serif;
+    font-size: 40;
+    width: 715px;
+    margin-left: auto;
+    margin-right: auto;
 }
