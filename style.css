@@ -3,19 +3,39 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
-
+body {
+    background: #eae7dc;
+    color: #e98074;
+}
 .small_text {
     font-family: 'EB Garamond', serif;
-    font-size: 12px;
+    font-size: 20px;
     width: 715px;
     margin-left: auto;
     margin-right: auto;
+
+    
 }
 
 .large_text {
     font-family: 'EB Garamond', serif;
-    font-size: 40;
+    font-size: 40px;
+}
+
+#hello {
+    margin-bottom: -30px;
+}
+
+#myName {
+    margin-bottom: -10px;
+}
+
+#maintext {
     width: 715px;
-    margin-left: auto;
-    margin-right: auto;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -100px;
+    
 }
