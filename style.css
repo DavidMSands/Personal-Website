@@ -5,6 +5,10 @@ h1 {
 }
 
 .small_text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 12px;
+}
+
+.large_text {
+    font-family: 'EB Garamond', serif;
 }
