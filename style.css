@@ -2,19 +2,24 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     text-align: center;
+    background-color: #000;
 }
 body {
-    background: #eae7dc;
-    color: #e98074;
+    background: #fff;
 }
 .small_text {
     font-family: 'EB Garamond', serif;
     font-size: 20px;
     width: 715px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+}
 
-    
+img {
+    position: relative; 
+    top: -40px;
+    width: 6%;
+    height: auto;
 }
 
 .large_text {
@@ -24,18 +29,50 @@ body {
 
 #hello {
     margin-bottom: -30px;
+    color: #d77870
 }
 
 #myName {
     margin-bottom: -10px;
+    color: rgba(12, 11, 11, 0.747);
 }
 
 #maintext {
     width: 715px;
-    position: fixed;
-    top: 30%;
+    position: absolute;
+    top: 40%;
     left: 30%;
     margin-top: -50px;
-    margin-left: -100px;
-    
+    margin-left: -100px;  
+}
+
+#vertical {
+    border-left: 3px solid #d77870;
+    height: 300px;
+    position: fixed;
+    left: 97%;
+    top: 33%;
+}
+
+#vertical2 {
+    border-left: 4px solid #d77870;
+    height: 200px;
+    position:absolute;
+    left: 20%;
+    top: 35%;
+}
+
+hr {
+    position:absolute;
+    left: 45%;
+    top: 3%;
+
+}
+
+#email {
+    transform: rotate(90deg);
+    color: #d77870;
+    position: fixed;
+    left: 91%;
+    top: 17%;
 }
