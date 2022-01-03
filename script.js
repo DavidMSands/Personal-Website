@@ -1,5 +1,6 @@
 let hover = document.getElementById("professional");
 let rectangle = document.getElementById("Rectangle2");
+let email = document.getElementById("email");
 
 hover.addEventListener("mouseover", function(){
     rectangle.style.left = "84.7%";
@@ -13,9 +14,11 @@ hover.addEventListener("mouseout", function(){
     hover.style.filter = "contrast(100%)"
 },true);
 
+email.addEventListener("mouseover", function(){
+    email.style.top = ("16%");
+},true);
 
+email.addEventListener("mouseout", function(){
+    email.style.top = ("17%");
+},true);
 
-/*const leftNumbers = rectangle.style.left.replace("%", "");
-const left = parseInt(leftNumbers, 10);
-rectangle.style.left = `${left - 5}%`;
-console.log(hover);*/
