@@ -3,7 +3,7 @@ let professional = document.getElementById("professional");
 
 
 professional.addEventListener("mouseover", function(){
-    professional.style.filter = "contrast(90%)"
+    professional.style.filter = "opacity(85%)"
 },true);
 
 professional.addEventListener("mouseout", function(){
